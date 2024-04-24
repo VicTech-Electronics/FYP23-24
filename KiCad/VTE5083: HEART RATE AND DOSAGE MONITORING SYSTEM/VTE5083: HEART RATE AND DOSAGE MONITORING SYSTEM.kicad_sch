@@ -1,0 +1,5315 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "adc5bf9a-7be4-4547-9c11-574956048158")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small_US"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -0.762)
+					(mid 0 -0.3734)
+					(end -1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N4001"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4001"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4001_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4001_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RF_Module:ESP-12E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ESP-12E"
+				(at 12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "RF_Module:ESP-12E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf"
+				(at -8.89 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "802.11 b/g/n Wi-Fi Module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "802.11 Wi-Fi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ESP?12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESP-12E_0_1"
+				(rectangle
+					(start -12.7 17.78)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ESP-12E_1_1"
+				(pin input line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "GPIO9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "GPIO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "GPIO15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "ADC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "GPIO3/RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "GPIO1/TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "GPIO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "GPIO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "GPIO13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 20.32 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "CS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:AMS1117-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DPST_x2"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPST_x2"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPST_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 58.42 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f329cdd-dd5c-4184-b7b0-71d50737fc8e")
+	)
+	(junction
+		(at 198.12 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30626dd8-deea-4ed8-9b70-6c5c6c3d6e02")
+	)
+	(junction
+		(at 99.06 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35181746-6ad4-43c4-9ba1-0fa6b3eb0ca1")
+	)
+	(junction
+		(at 72.39 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a1c80bb-1c43-4c98-8eb2-78afd6834bb3")
+	)
+	(junction
+		(at 176.53 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "542f0e37-d172-4e7b-a339-f04dea066651")
+	)
+	(junction
+		(at 156.21 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85e137a6-6ab1-40ff-9347-ef59e8f43bd1")
+	)
+	(junction
+		(at 72.39 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4c7ec42-8aed-4eba-aeee-6d31aae4fcb7")
+	)
+	(no_connect
+		(at 161.29 105.41)
+		(uuid "019c8198-201f-4f38-834f-d8c10172facf")
+	)
+	(no_connect
+		(at 161.29 95.25)
+		(uuid "3ef0b1f6-11f4-49fc-82ec-1b6b665068f6")
+	)
+	(no_connect
+		(at 191.77 92.71)
+		(uuid "615046db-81d7-4110-a53a-2f2021872b8f")
+	)
+	(no_connect
+		(at 161.29 97.79)
+		(uuid "74bc391c-304a-4e38-9fb1-74a34a7defb3")
+	)
+	(no_connect
+		(at 161.29 87.63)
+		(uuid "927f9665-31de-416a-82b7-f8bf4f7facfa")
+	)
+	(no_connect
+		(at 191.77 102.87)
+		(uuid "94d40b9c-038c-4dd1-a98d-31d1d3d3aaeb")
+	)
+	(no_connect
+		(at 161.29 92.71)
+		(uuid "9eab4b85-60bf-4a91-a60e-cc4db4fdb246")
+	)
+	(no_connect
+		(at 191.77 82.55)
+		(uuid "a38dc560-64dd-40ce-9350-9fe2f65e29ff")
+	)
+	(no_connect
+		(at 161.29 102.87)
+		(uuid "b5850ee8-ae3a-4ab4-8152-27fe6be4d1d6")
+	)
+	(no_connect
+		(at 161.29 100.33)
+		(uuid "fcf8d157-c06d-4aef-ac2c-7e38fe19b1e5")
+	)
+	(wire
+		(pts
+			(xy 198.12 77.47) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b9505d-88d7-45c0-9944-c62ccfd32f6b")
+	)
+	(wire
+		(pts
+			(xy 72.39 78.74) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09020612-bad5-4626-ac83-4213974eea42")
+	)
+	(wire
+		(pts
+			(xy 134.62 77.47) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1101a9d7-6442-468e-b609-b07a5650bc1c")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 58.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b191d6-8e3e-45e3-8d8a-b8e91f8d44a3")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.74) (xy 58.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12320767-449b-4b4c-a003-ebcfd49f2533")
+	)
+	(wire
+		(pts
+			(xy 86.36 86.36) (xy 86.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15badba8-907e-4693-9d30-a0e71311311d")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 161.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174c93f2-7a0c-4f17-9bd2-56a3b06ea317")
+	)
+	(wire
+		(pts
+			(xy 48.26 78.74) (xy 45.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19561d9c-7a71-40c5-b13c-a2bc7650a6a5")
+	)
+	(wire
+		(pts
+			(xy 176.53 66.04) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aef8cde-e828-4c86-9073-08d408dcb4c3")
+	)
+	(wire
+		(pts
+			(xy 198.12 73.66) (xy 198.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbe6ce3-b690-4688-9536-6df72981da7b")
+	)
+	(wire
+		(pts
+			(xy 228.6 109.22) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2094b74f-421c-40cf-ad2b-b6b7d26e6cf5")
+	)
+	(wire
+		(pts
+			(xy 213.36 97.79) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228c9188-d4fa-4ea6-b4c5-fd48d32ce0cf")
+	)
+	(wire
+		(pts
+			(xy 176.53 63.5) (xy 176.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2590cad7-cb8f-41f4-9356-543aba9a9e70")
+	)
+	(wire
+		(pts
+			(xy 198.12 68.58) (xy 198.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e24435-99ef-4b34-9161-39b249837e02")
+	)
+	(wire
+		(pts
+			(xy 191.77 85.09) (xy 207.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3140700d-6b94-41b0-9adb-5f9c9b3523b2")
+	)
+	(wire
+		(pts
+			(xy 111.76 146.05) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31881930-102d-421c-b389-26123376bd82")
+	)
+	(wire
+		(pts
+			(xy 228.6 96.52) (xy 228.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37edc0a5-41ca-4595-83e6-befa4fbfb618")
+	)
+	(wire
+		(pts
+			(xy 120.65 142.24) (xy 120.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383fbe14-1ee2-48ce-b968-bf1f82d35a29")
+	)
+	(wire
+		(pts
+			(xy 58.42 87.63) (xy 63.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4423cfbc-6f0c-4e92-a139-22635c8c46af")
+	)
+	(wire
+		(pts
+			(xy 124.46 151.13) (xy 120.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea82fd7-bfab-4c93-b8d9-a06ba9798dbb")
+	)
+	(wire
+		(pts
+			(xy 124.46 143.51) (xy 120.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5042974a-5aed-4865-b3ab-5a2812ec1e26")
+	)
+	(wire
+		(pts
+			(xy 203.2 109.22) (xy 203.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50eceb5c-adfe-47ee-bbf1-e7bb65007588")
+	)
+	(wire
+		(pts
+			(xy 215.9 109.22) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51865a0f-7cb5-4011-b869-f1c2973dc14c")
+	)
+	(wire
+		(pts
+			(xy 93.98 78.74) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5431d1b5-9e0b-443c-bf65-4b5779b8c694")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 58.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557f9718-facc-4239-a7a9-8c49ccb6e743")
+	)
+	(wire
+		(pts
+			(xy 72.39 87.63) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5f6c42-505b-4d61-bd2d-0650493225f8")
+	)
+	(wire
+		(pts
+			(xy 222.25 77.47) (xy 227.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcdcf72-93f3-4b3d-b3bf-bd7f4946bb1e")
+	)
+	(wire
+		(pts
+			(xy 86.36 151.13) (xy 81.28 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac3fa55-9ced-42f8-81ff-e945f73c764e")
+	)
+	(wire
+		(pts
+			(xy 72.39 87.63) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc9bf8d-d424-4437-b6c3-ad274c24f01c")
+	)
+	(wire
+		(pts
+			(xy 191.77 90.17) (xy 207.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7137a0e4-bd2a-4778-a172-e491ce44e697")
+	)
+	(wire
+		(pts
+			(xy 228.6 95.25) (xy 191.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7178f5cd-f463-4ddc-a982-d075b9e916f7")
+	)
+	(wire
+		(pts
+			(xy 72.39 78.74) (xy 58.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71895736-4816-4a32-a1d0-5eb61078eca0")
+	)
+	(wire
+		(pts
+			(xy 198.12 77.47) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7577ee37-265a-47ad-827b-282445fef693")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 156.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795167c9-baba-48e3-a425-efe3c7db3d22")
+	)
+	(wire
+		(pts
+			(xy 76.2 148.59) (xy 86.36 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822525c0-072b-467a-86b2-73dd03051129")
+	)
+	(wire
+		(pts
+			(xy 73.66 143.51) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858463b8-d105-4b9e-8d63-d73d33ae9d31")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8897924f-5328-4c56-88ae-b927e4baf5ae")
+	)
+	(wire
+		(pts
+			(xy 198.12 66.04) (xy 176.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898ce9cf-98ea-4403-93a5-175770189c1b")
+	)
+	(wire
+		(pts
+			(xy 191.77 100.33) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df75680-4249-41fc-acdc-87db814c6571")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e3f450-8e25-423f-9608-8b485eff5fa2")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e96a585-7b9f-4816-9f10-edc3bf823bba")
+	)
+	(wire
+		(pts
+			(xy 156.21 66.04) (xy 156.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a124db01-0d29-4001-9516-66d81582590f")
+	)
+	(wire
+		(pts
+			(xy 45.72 78.74) (xy 45.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1588dc9-9f81-4fad-a1f0-36a3a1f4cfc6")
+	)
+	(wire
+		(pts
+			(xy 215.9 97.79) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3304b27-f44d-4c97-b389-d18da3f17ec7")
+	)
+	(wire
+		(pts
+			(xy 156.21 66.04) (xy 176.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6810f4d-0e67-4ca6-96e4-4d64df2e1c6b")
+	)
+	(wire
+		(pts
+			(xy 45.72 86.36) (xy 45.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a0352e-0e45-4705-9efc-24634994353b")
+	)
+	(wire
+		(pts
+			(xy 156.21 82.55) (xy 161.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada7542d-9bd9-4419-b4df-7cc3ab67fae2")
+	)
+	(wire
+		(pts
+			(xy 191.77 80.01) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeacda5d-6549-4e9f-a240-cbc2d8d48e79")
+	)
+	(wire
+		(pts
+			(xy 73.66 146.05) (xy 86.36 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00da661-2733-4a71-b4fa-0c80b25e4515")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd043600-3e63-4e5b-8a41-109b9371537e")
+	)
+	(wire
+		(pts
+			(xy 111.76 148.59) (xy 124.46 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf823a6c-69d2-4dc6-997a-58f930db994f")
+	)
+	(wire
+		(pts
+			(xy 156.21 74.93) (xy 156.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2df5c86-8cc1-42f4-9092-7f4cde388359")
+	)
+	(wire
+		(pts
+			(xy 78.74 78.74) (xy 72.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a56e55-aa81-4ced-a719-5307500cd244")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 72.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc882196-610b-4e5c-8ad0-990cb6f35d91")
+	)
+	(wire
+		(pts
+			(xy 191.77 87.63) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf54044c-07bd-4ce7-bc28-fec75634d01b")
+	)
+	(wire
+		(pts
+			(xy 228.6 101.6) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5970f6a-1c27-495b-b314-805de109ed2d")
+	)
+	(wire
+		(pts
+			(xy 176.53 110.49) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9210a11-d7fb-4d48-a7b6-5dd495bb2ad1")
+	)
+	(wire
+		(pts
+			(xy 81.28 151.13) (xy 81.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9ab64a-4444-48a6-a960-daae8ec71af3")
+	)
+	(wire
+		(pts
+			(xy 120.65 151.13) (xy 120.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea82746-9415-4802-bd6f-f7e849a11ecd")
+	)
+	(wire
+		(pts
+			(xy 191.77 97.79) (xy 208.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa32f701-101b-4a2c-9dab-cd9375d7dfd9")
+	)
+	(wire
+		(pts
+			(xy 148.59 77.47) (xy 156.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5377a1-08d9-43c0-b3fd-8a7e3df46502")
+	)
+	(label "SDA"
+		(at 207.01 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2134e541-4110-4778-89a5-84fcb0b4db1e")
+	)
+	(label "RXD"
+		(at 111.76 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32886d78-304b-4b4d-a906-0cf54d3cf512")
+	)
+	(label "RXD"
+		(at 207.01 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38e9458f-cec3-46b0-996f-88993546e8c5")
+	)
+	(label "SDA"
+		(at 73.66 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46121415-e2d4-4e2a-9e1b-c4859623df9a")
+	)
+	(label "SCL"
+		(at 73.66 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63abc970-b0e5-4b8a-9c99-dcd72528162b")
+	)
+	(label "TXD"
+		(at 111.76 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bb57e10-d77d-4c37-9889-ba23e7308a7d")
+	)
+	(label "SCL"
+		(at 207.01 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9df156f7-ff74-4eea-8d3b-a3363b71dcf8")
+	)
+	(label "TXD"
+		(at 207.01 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c898a269-aac3-428c-8cdf-1b79bbe81fa5")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 72.39 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00b61069-5b5e-4d0c-bc92-9af9c85b66d6")
+		(property "Reference" "C2"
+			(at 74.422 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 74.422 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58c0706f-95a9-42c5-a098-7d271070e36b")
+		)
+		(pin "2"
+			(uuid "71624b07-add2-4abb-ac0f-5349fcc88e97")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "079d9f5d-3466-4589-864b-2b931f2a548e")
+		(property "Reference" "#PWR012"
+			(at 81.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0184bbf3-791c-4d22-82fb-a557bd20249e")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 228.6 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10b90210-de2b-4466-8518-2635c9062ecc")
+		(property "Reference" "D4"
+			(at 231.648 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 233.172 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
+			(at 228.6 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "866bd243-98d4-413a-b8b4-53ee6a353157")
+		)
+		(pin "1"
+			(uuid "35cc17ee-5881-4284-900f-a97007211df8")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 99.06 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16b246cb-4162-4320-8c78-78feab7e14cf")
+		(property "Reference" "C1"
+			(at 101.6 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3924279-6673-4e77-b0b9-0c7af92bb307")
+		)
+		(pin "2"
+			(uuid "183e1642-1e35-4b13-bbb0-0f4ad781409d")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18a68fda-1ade-4036-8dcf-48af5393d5e1")
+		(property "Reference" "#PWR01"
+			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f06c0e15-38be-41a8-8ee8-418c42a6c697")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 143.51 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ab2fe44-61dd-45e1-8f27-5741535b697e")
+		(property "Reference" "SW1"
+			(at 143.764 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Reset"
+			(at 143.764 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "044287b1-510c-4945-9cab-6a4704413f51")
+		)
+		(pin "1"
+			(uuid "2c7810a8-f168-4f31-a952-7983beb150c4")
+		)
+		(pin "2"
+			(uuid "4da33758-4c52-4c68-934f-b7ca3eff8ae1")
+		)
+		(pin "4"
+			(uuid "bc993c39-3a27-42c9-beff-6ed9b9a76039")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 58.42 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d548266-ee49-4475-8405-939c45f4c10a")
+		(property "Reference" "R1"
+			(at 59.944 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200"
+			(at 59.944 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b651169-85c8-42f9-9e24-69cb3885e6b8")
+		)
+		(pin "2"
+			(uuid "b68f7bc0-c876-4c0d-aa49-67528faab7cc")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 86.36 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d6add9f-cfef-423d-9fa7-fcbdb1b5bcc3")
+		(property "Reference" "U2"
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 86.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 86.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "380fb89b-42a9-4906-84f7-223fc2d79b57")
+		)
+		(pin "2"
+			(uuid "530dd693-c2b5-4fcc-9f9f-52bc5f7f4490")
+		)
+		(pin "3"
+			(uuid "525d20a3-4c08-44a8-843b-4493cb6930d0")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33a27741-5adc-4b01-a11d-531caa86bd83")
+		(property "Reference" "#PWR03"
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97cfb69f-7e7b-4ba0-bb25-148b0a872e90")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 215.9 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34d0726e-8a64-45d0-9ce0-0e5e5057f4de")
+		(property "Reference" "D3"
+			(at 218.694 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 219.456 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
+			(at 215.9 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 215.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eaeb7c46-9c7a-4c17-b67c-615ac40a8e6b")
+		)
+		(pin "1"
+			(uuid "3943d93f-a8ae-47bf-bed0-a39035f2b71e")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a930419-2045-469d-aac8-9c1bfa189578")
+		(property "Reference" "#PWR06"
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07b935ae-a77f-4cfa-bc3d-220d6ec41e7e")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b64b21f-b450-462f-9d71-e5d4b9d6c9bb")
+		(property "Reference" "#PWR08"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b093e8b5-c125-4c4c-9620-2d55f76b2832")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b92cc68-76b6-4cf7-98c2-12ef3e3e58e5")
+		(property "Reference" "#PWR010"
+			(at 120.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61634ef0-0feb-41e9-bde0-144b578c6a27")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 66.04 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53e79aba-3ab2-4604-a864-aeeef1411e1b")
+		(property "Reference" "D1"
+			(at 63.754 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 64.262 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
+			(at 66.04 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e7279c8-2e67-4242-87b3-6abd586840c1")
+		)
+		(pin "1"
+			(uuid "d5f8bc81-b5c8-42b8-a965-36c9eaf808c1")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54da4ed9-e3d4-4c91-907b-d20067f3c950")
+		(property "Reference" "#PWR014"
+			(at 233.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68024214-5c4b-4ee4-ad56-86336a3eafcd")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 210.82 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55dbadcf-5631-40bc-919d-3e29a605506a")
+		(property "Reference" "R5"
+			(at 210.058 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 214.376 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b015070a-43e7-41b1-9917-0433c3f58202")
+		)
+		(pin "2"
+			(uuid "173e61bc-bbb7-4187-a0a1-6b7d9d11b278")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 228.6 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b4845d2-32c6-43aa-92e7-ac791d7eb4a4")
+		(property "Reference" "R6"
+			(at 232.918 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 233.934 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 228.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 228.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7ec29a9-30a2-4b21-b546-73d88d85c997")
+		)
+		(pin "2"
+			(uuid "23d85ec2-6cb9-4863-9734-16c3e5dbeede")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 99.06 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7561b4bb-0343-4125-9579-df0beba00c61")
+		(property "Reference" "#PWR05"
+			(at 99.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1ef31cf-352a-429f-b83f-cf47f3ecfe67")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 203.2 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88fd7542-0d56-4ed7-873c-0b0f0aa9e4ff")
+		(property "Reference" "R3"
+			(at 204.724 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 204.724 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c443bac-8391-4482-b4c6-27e95c73a7a0")
+		)
+		(pin "2"
+			(uuid "958d88a8-95bd-43da-89c5-ad744c761317")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e455943-b712-47d1-8d6a-9d9ac9e28fe5")
+		(property "Reference" "#PWR07"
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddd7f1c0-b8c6-4a82-845b-6ec4155fa6b4")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9616f039-2030-4ddc-a641-7582b1c61673")
+		(property "Reference" "#PWR011"
+			(at 80.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 72.39 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b420322-66d7-45f1-9a71-9ec7a79e67f7")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a29e2907-81ac-4665-b2ef-c48872ebe801")
+		(property "Reference" "#PWR016"
+			(at 228.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ba2bef1-c88a-4a23-8cc0-d81852b163fd")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 217.17 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2e56a15-0681-49af-8611-494d4799c0c0")
+		(property "Reference" "SW2"
+			(at 217.17 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mode"
+			(at 216.916 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "044287b1-510c-4945-9cab-6a4704413f51")
+		)
+		(pin "1"
+			(uuid "ffe4caeb-9509-4044-a705-79d338db0288")
+		)
+		(pin "2"
+			(uuid "afd2cc35-4256-4de1-b013-c0d72a136c82")
+		)
+		(pin "4"
+			(uuid "bc993c39-3a27-42c9-beff-6ed9b9a76039")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 40.64 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5f4069a-1ee0-4193-aee7-ed34b9344c3e")
+		(property "Reference" "J1"
+			(at 40.64 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Power"
+			(at 41.402 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeb10f3a-c91a-4309-bbdb-b4acdbb42c99")
+		)
+		(pin "2"
+			(uuid "4f3e5431-493f-4548-8b74-036560be2d0e")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baad85bb-447e-4e03-bd0b-f217dc10ea84")
+		(property "Reference" "#PWR04"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "857794b0-6904-4699-88f7-8a0abf8c834e")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf669b94-736d-4d23-8b80-ae97b3d0f4b1")
+		(property "Reference" "#PWR013"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6465b346-6a93-48bd-969a-f6f727edd41c")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 198.12 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0c32ef6-29df-4cb0-8657-192b250b77f7")
+		(property "Reference" "R4"
+			(at 199.644 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 199.644 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8c354e9-6dc5-4a69-995b-2ba536dde4da")
+		)
+		(pin "2"
+			(uuid "2a3f65ae-215c-44ad-b5a9-bdd617cf9105")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 52.07 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7c6e910-4feb-4424-872a-299b43dcc6ea")
+		(property "Reference" "D2"
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0067991-b0e4-4aca-bcf2-3106ba909fea")
+		)
+		(pin "2"
+			(uuid "9b08733b-cb40-45eb-a016-1eb2f4a6cf58")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Module:ESP-12E")
+		(at 176.53 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf27c5f7-b21f-403c-8405-35e75c9edeeb")
+		(property "Reference" "U1"
+			(at 178.7241 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP-12E"
+			(at 178.7241 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:ESP-12E"
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "802.11 b/g/n Wi-Fi Module"
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "622a4c55-ae65-4c69-9b79-b98594480ba2")
+		)
+		(pin "21"
+			(uuid "1206a075-7d88-4762-b665-8fc4dcc0232a")
+		)
+		(pin "20"
+			(uuid "baa4149c-68b6-4915-9c0b-25fbd381fbf4")
+		)
+		(pin "8"
+			(uuid "d846054a-7ef8-49e0-a085-a8c1cb3ecd67")
+		)
+		(pin "2"
+			(uuid "0f809c66-a7f1-4827-a68b-c2eb7a84d1d5")
+		)
+		(pin "22"
+			(uuid "95f98fed-04fc-43c5-acc9-773f77d3ae60")
+		)
+		(pin "16"
+			(uuid "81fb1737-28c2-41a0-925e-aa081a7a55eb")
+		)
+		(pin "7"
+			(uuid "30eb1060-2ef6-41bc-b5d0-6fe7268f1e5f")
+		)
+		(pin "14"
+			(uuid "bf3e8496-4734-4f94-9d84-81fe80a75545")
+		)
+		(pin "6"
+			(uuid "1f84893e-5ba8-461b-8a6c-8a267bd2fd60")
+		)
+		(pin "19"
+			(uuid "9517247d-de48-4a30-8b36-520dc6d211f8")
+		)
+		(pin "4"
+			(uuid "3ee7c914-ee8c-469b-8150-052e0c4b9dfb")
+		)
+		(pin "13"
+			(uuid "f8aded3a-30e5-4681-9d94-c51441c8d032")
+		)
+		(pin "10"
+			(uuid "dfcc70f6-622f-4fc8-8f88-486be213f36b")
+		)
+		(pin "15"
+			(uuid "4562b2fa-7cb0-438e-a419-46923cadf232")
+		)
+		(pin "12"
+			(uuid "6fa90af0-aa50-4376-bf5b-21c61b0f58b8")
+		)
+		(pin "5"
+			(uuid "46466da3-7563-41d2-8fec-f668052919f0")
+		)
+		(pin "1"
+			(uuid "502655f9-5023-41d2-bdc7-ee1be19cdd92")
+		)
+		(pin "11"
+			(uuid "9fec01ea-ae70-4f86-b7f6-dc5ccba6dfdf")
+		)
+		(pin "18"
+			(uuid "77e8c36c-e80b-4227-a252-e673b985ae29")
+		)
+		(pin "3"
+			(uuid "fdda0902-f686-4fb1-aba5-f93cef318a32")
+		)
+		(pin "9"
+			(uuid "41e9596e-0e6d-44d6-82b9-910fe1837248")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d26957b6-b7b1-47a3-91d7-87913b4fccb0")
+		(property "Reference" "#PWR02"
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0032735-593f-4406-a2c5-143da5bb32d0")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba2f9dd-8831-4276-97fc-55cd73de6458")
+		(property "Reference" "#PWR015"
+			(at 215.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "309ab6a6-9a6b-4773-8762-b664c24716fe")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 129.54 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df485654-1c71-4045-8ddb-54d17520aece")
+		(property "Reference" "J2"
+			(at 130.81 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Programer"
+			(at 130.81 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 129.54 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 129.54 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c7d7a105-d2da-4bb2-9064-8c1ab0fae5c3")
+		)
+		(pin "2"
+			(uuid "31cc8574-8e6e-427a-8f64-190d7e8cae7b")
+		)
+		(pin "3"
+			(uuid "a41218f5-fb42-4b69-b137-61ce5d5bba1b")
+		)
+		(pin "1"
+			(uuid "74c4b63a-a339-47ee-935d-b5b4b1211bba")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 91.44 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e85b251b-3424-407a-bc64-1e7d8906646f")
+		(property "Reference" "J3"
+			(at 92.71 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Sensor"
+			(at 92.71 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 91.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 91.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d19e2518-d365-4ec9-978b-eec456a3c6b4")
+		)
+		(pin "2"
+			(uuid "6b2d9637-5d57-4e0e-8e3e-ad8d76c6cda2")
+		)
+		(pin "3"
+			(uuid "27e16c63-4a61-49f9-9f5c-54b55a170c28")
+		)
+		(pin "1"
+			(uuid "2060710e-2cd7-4a7b-a685-85fbdc0422af")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 120.65 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1eb302e-9e19-4c4f-ba4e-ccd75fb5c8d8")
+		(property "Reference" "#PWR09"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79c75f92-7291-4f49-bef5-e22f53d19c9c")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 156.21 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9b5350e-57aa-44d4-b6f9-c3144fb6780d")
+		(property "Reference" "R2"
+			(at 157.734 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 157.734 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "613844e6-2cd0-4748-9994-a8d5bca57185")
+		)
+		(pin "2"
+			(uuid "8d2053ed-d79d-4e82-81eb-5a539296f1f3")
+		)
+		(instances
+			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
+				(path "/adc5bf9a-7be4-4547-9c11-574956048158"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
