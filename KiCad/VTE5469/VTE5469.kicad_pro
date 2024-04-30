@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.556,
-          "width": 1.905
+          "drill": 0.8,
+          "height": 1.4,
+          "width": 1.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -430,7 +430,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "VTE1808.kicad_pro",
+    "filename": "VTE5469.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -442,13 +442,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 1.524,
+        "microvia_diameter": 1.778,
         "microvia_drill": 0.508,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.016,
-        "via_diameter": 1.524,
+        "via_diameter": 1.778,
         "via_drill": 0.508,
         "wire_width": 6
       }
@@ -574,7 +574,7 @@
   },
   "sheets": [
     [
-      "a98b85fc-2acc-4c0d-9da8-1164125d8155",
+      "ad4f4e3b-ac9f-4612-ab42-3a819bd41e87",
       "Root"
     ]
   ],

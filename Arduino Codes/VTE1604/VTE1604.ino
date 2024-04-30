@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   if(in_setting_mode) settingMode();
-
+  inOperation();
 }
 
 

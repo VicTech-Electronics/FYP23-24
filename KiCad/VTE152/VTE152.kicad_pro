@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.556,
-          "width": 1.905
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -430,7 +430,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "VTE1808.kicad_pro",
+    "filename": "VTE152.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -574,7 +574,7 @@
   },
   "sheets": [
     [
-      "a98b85fc-2acc-4c0d-9da8-1164125d8155",
+      "6d5960af-6d28-4e8d-8c49-43ca0e62b1e6",
       "Root"
     ]
   ],

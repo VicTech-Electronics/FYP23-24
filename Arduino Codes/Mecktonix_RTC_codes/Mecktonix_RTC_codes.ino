@@ -1,6 +1,7 @@
 #include "Communication.h"
 #include "Keypad.h"
-#include "RTC.h"
+// #include "RTC.h"
+#include "DS1307RTC.h"
 
 String current_time, time_on, time_off, hours, minutes;
 String received_sms;
@@ -14,7 +15,8 @@ void setup(){
   serialGSM.begin(9600);
   lcd.init();
   lcd.backlight();
-  initiateRTC();
+  // initiateRTC();
+  URTCLIB_WIRE.begin();
   initializeGSM();
 }
   
@@ -32,8 +34,10 @@ void loop(){
   key = 'z';
   time = "";
 
-  RtcDateTime now = Rtc.GetDateTime();
-  current_time = getTimeRTC(now);
+  // RtcDateTime now = Rtc.GetDateTime();
+  // current_time = getTimeRTC(now);
+
+  current_time = getTime_RTC();
   if(current_time == time_on) switchRelay(HIGH);
   else if(current_time == time_off) switchRelay(LOW);
 

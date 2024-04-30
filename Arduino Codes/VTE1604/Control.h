@@ -4,13 +4,13 @@ uint8_t motor_pin1 = A4, motor_pin2 = A5;
 uint8_t setting_btn_pin = 2, change_btn_pin = 3, next_btn_pin = 4;
 
 String current_setting = "";
-bool in_setting_mode = false;
-int count_downn_sec;
-int hours, minutes;
-
+bool in_setting_mode = false, in_operation = false;
+int hours = 0, minutes = 0;
+int count_down_sec = 0;
 
 void startSetting() {
   in_setting_mode = true;
+  count_down_sec = 0;
 }
 
 void initSystem() {
@@ -44,11 +44,11 @@ void setting(String parameter) {
 void settingMode() {
   in_setting_mode = false;
   current_setting = "hours";
-  while(true) {
+  while (true) {
     setting(current_setting);
-    if(digitalRead(next_btn_pin) == LOW){
-      if(current_setting == "hours") current_setting = "minutes";
-      else if(current_setting == "minutes") {
+    if (digitalRead(next_btn_pin) == LOW) {
+      if (current_setting == "hours") current_setting = "minutes";
+      else if (current_setting == "minutes") {
         current_setting = "";
         break;
       }
@@ -56,11 +56,15 @@ void settingMode() {
   }
 }
 
-void countDown(){
-  count_down_sec = hours * 3600 + minutes * 60;
-  while(count_down_sec > 1){
-    lcdPrint("TUMBLE DRUM", "Processing...");
-    count_down_sec -= 1;
-    delay(1000);
+void inOperation() {
+  if (count_down_sec > 1) {
+    lcdPrint("Time " + String(hours) + ":" + String(minutes), "Processing...");
+    count_down_sec = hours * 3600 + minutes * 60;
+    while (count_down_sec > 1) {
+      count_down_sec -= 1;
+      delay(1000);
+    }
+  }else{
+    lcdPrint("TUMBLE DRUM", "Fish Scaling");
   }
 }
