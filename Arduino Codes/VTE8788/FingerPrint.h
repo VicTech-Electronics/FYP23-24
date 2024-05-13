@@ -1,29 +1,42 @@
 #include <Adafruit_Fingerprint.h>
 #include <SoftwareSerial.h>
 
-SoftwareSerial fingerprint_serial(2, 3); // Arduino RX pin 2, TX pin 3
+SoftwareSerial fingerprint_serial(2, 3);  // Arduino RX pin 2, TX pin 3
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&fingerprint_serial);
 
-void initializeFingerprint(){
-  if (!finger.begin(57600)) {
-    Serial.println("Couldn't find fingerprint sensor :(");
-    while (1);
-  }
-  Serial.println("Found fingerprint sensor!");
+
+uint8_t fingerprint_data;
+
+void initializeFingerprint() {
+  fingerprint_serial.listen();
+  if (fingerprint_serial.isListening()) {
+    finger.begin(57600);
+    delay(5);
+    if (finger.verifyPassword()) {
+      Serial.println("Found fingerprint sensor!");
+    } else {
+      Serial.println("Did not find fingerprint sensor :(");
+      while (1) { delay(1); }
+    }
+  } else Serial.println("Fail to listen to FingerPrint serial");
 }
 
-String getFingerprintID(){  
+String getFingerprintID() {
   Serial.println("Waiting for valid fingerprint...");
-  while (!finger.verifyPassword()) delay(500);
 
-  uint8_t found = finger.getImage();
-  if (found != FINGERPRINT_OK) return "fail"
+  fingerprint_serial.listen();
+  if (fingerprint_serial.isListening()) {
+    fingerprint_data = finger.getImage();
+    if (fingerprint_data != FINGERPRINT_OK) return "Fail to get finger image";
 
-  found = finger.image2Tz();
-  if (found != FINGERPRINT_OK) return "fail"
+    fingerprint_data = finger.image2Tz();
+    if (fingerprint_data != FINGERPRINT_OK) return "Fail to convert finger image to ID";
 
-  found = finger.fingerFastSearch();
-  if (found == FINGERPRINT_OK) {
-    return String(finger.fingerID());
-  } else return "fail"
+    fingerprint_data = finger.fingerFastSearch();
+    if (fingerprint_data == FINGERPRINT_OK)
+      return "printID " + String(finger.fingerID);
+    else return "Fail to get printID";
+  }
+
+  return "Fail to listen to the FingerPrint Serial";
 }
