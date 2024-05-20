@@ -34,7 +34,7 @@ String getFingerprintID() {
 
     fingerprint_data = finger.fingerFastSearch();
     if (fingerprint_data == FINGERPRINT_OK)
-      return "printID " + String(finger.fingerID);
+      return "printID" + String(finger.fingerID);
     else return "Fail to get printID";
   }
 

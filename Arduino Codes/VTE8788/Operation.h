@@ -9,7 +9,6 @@ void changeMode(){
   else mode = "operation";
 
   delayMicroseconds(65535);
-
   digitalWrite(buzzer_pin, LOW);
 }
 

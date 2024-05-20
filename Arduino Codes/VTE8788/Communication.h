@@ -4,8 +4,7 @@
 
 const char* ssid = "YourNetworkSSID";                        // Replace with your network SSID
 const char* password = "YourNetworkPassword";                // Replace with your network password
-const char* serverUrl = "http://example.com/api/post_data";  // Replace with the URL of the server you want to send the POST request to
-
+const char* serverUrl = "http://64.23.247.79";  
 
 SoftwareSerial nextion_serial(1, 2);
 String nextion_message = "";
@@ -30,7 +29,6 @@ String postRequest(String payload) {
   http.addHeader("Content-Type", "application/json");
   httpResponseCode = http.POST(payload);
   Serial.println("HTTP Response Code: " + String(httpResponseCode));
-  http_response = http.getString();
   http.end();
 
   if (httpResponseCode == 200) return "success";

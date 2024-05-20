@@ -2125,10 +2125,6 @@
 		(uuid "927f9665-31de-416a-82b7-f8bf4f7facfa")
 	)
 	(no_connect
-		(at 191.77 102.87)
-		(uuid "94d40b9c-038c-4dd1-a98d-31d1d3d3aaeb")
-	)
-	(no_connect
 		(at 161.29 92.71)
 		(uuid "9eab4b85-60bf-4a91-a60e-cc4db4fdb246")
 	)
@@ -2163,6 +2159,16 @@
 			(type default)
 		)
 		(uuid "09020612-bad5-4626-ac83-4213974eea42")
+	)
+	(wire
+		(pts
+			(xy 195.58 105.41) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad8f9f2-7b2a-4ed8-9c11-61a01c5d7faf")
 	)
 	(wire
 		(pts
@@ -2356,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 109.22) (xy 203.2 113.03)
+			(xy 195.58 110.49) (xy 195.58 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2526,16 +2532,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 100.33) (xy 203.2 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df75680-4249-41fc-acdc-87db814c6571")
-	)
-	(wire
-		(pts
 			(xy 99.06 78.74) (xy 99.06 81.28)
 		)
 		(stroke
@@ -2636,16 +2632,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 100.33) (xy 203.2 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd043600-3e63-4e5b-8a41-109b9371537e")
-	)
-	(wire
-		(pts
 			(xy 111.76 148.59) (xy 124.46 148.59)
 		)
 		(stroke
@@ -2733,6 +2719,16 @@
 			(type default)
 		)
 		(uuid "dea82746-9415-4802-bd6f-f7e849a11ecd")
+	)
+	(wire
+		(pts
+			(xy 191.77 102.87) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec19e26e-45e0-438f-91dc-8aba864b740b")
 	)
 	(wire
 		(pts
@@ -4064,7 +4060,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 203.2 106.68 0)
+		(at 195.58 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4072,7 +4068,7 @@
 		(dnp no)
 		(uuid "88fd7542-0d56-4ed7-873c-0b0f0aa9e4ff")
 		(property "Reference" "R3"
-			(at 204.724 105.664 0)
+			(at 197.104 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4077,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 204.724 107.442 0)
+			(at 197.104 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4086,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 203.2 106.68 0)
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 106.68 0)
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4104,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 203.2 106.68 0)
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4379,7 @@
 			)
 		)
 		(pin "3"
-			(uuid "044287b1-510c-4945-9cab-6a4704413f51")
+			(uuid "044287b1-510c-4945-9cab-6a4704413f52")
 		)
 		(pin "1"
 			(uuid "ffe4caeb-9509-4044-a705-79d338db0288")
@@ -4392,7 +4388,7 @@
 			(uuid "afd2cc35-4256-4de1-b013-c0d72a136c82")
 		)
 		(pin "4"
-			(uuid "bc993c39-3a27-42c9-beff-6ed9b9a76039")
+			(uuid "bc993c39-3a27-42c9-beff-6ed9b9a7603a")
 		)
 		(instances
 			(project "VTE5083: HEART RATE AND DOSAGE MONITORING SYSTEM"
@@ -4539,7 +4535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 113.03 0)
+		(at 195.58 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4548,7 +4544,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf669b94-736d-4d23-8b80-ae97b3d0f4b1")
 		(property "Reference" "#PWR013"
-			(at 203.2 119.38 0)
+			(at 195.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 118.11 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 113.03 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 113.03 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 113.03 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
