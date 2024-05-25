@@ -1,0 +1,44 @@
+On the ESP12-E module, certain GPIO pins have special functions that may interfere with the module's operation if not handled correctly. Here’s a detailed look at which pins to avoid or use with caution as general-purpose GPIO:
+Pins to Use with Caution or Avoid
+
+    GPIO 0 (D3)
+        Boot Mode: Must be pulled HIGH during boot to enter normal mode (pulled to GND to enter flash programming mode).
+        Usage: Can be used as a general-purpose I/O but be cautious about its state during boot.
+
+    GPIO 2 (D4)
+        Boot Mode: Must be pulled HIGH during boot. If pulled LOW, the ESP will not boot.
+        Usage: Safe to use as long as it remains HIGH during boot.
+
+    GPIO 15 (D8)
+        Boot Mode: Must be pulled LOW during boot. If pulled HIGH, the ESP will enter SDIO mode.
+        Usage: Can be used as a general-purpose I/O but must be pulled LOW during boot.
+
+    GPIO 1 (TX) and GPIO 3 (RX)
+        Usage: Primarily used for serial communication (UART). Using them as general-purpose I/O can interfere with serial communication, especially if you rely on debugging or communication over the serial port.
+        TX (GPIO 1): Transmit pin, used for serial output.
+        RX (GPIO 3): Receive pin, used for serial input.
+
+    GPIO 6 to GPIO 11
+        Usage: These pins are connected to the flash memory (SPI flash) of the ESP8266 and are not recommended for general-purpose I/O.
+        Pins: GPIO 6 (SDIO_CLK), GPIO 7 (SDIO_DATA0), GPIO 8 (SDIO_DATA1), GPIO 9 (SDIO_DATA2), GPIO 10 (SDIO_DATA3), GPIO 11 (SDIO_CMD).
+
+    GPIO 16 (D0)
+        Special Use: Often used for waking up from deep sleep.
+        Usage: Can be used as a general-purpose I/O, but its special function for deep sleep wakeup should be considered in low-power applications.
+
+Recommended Pins for General-Purpose I/O
+
+    GPIO 4 (D2)
+    GPIO 5 (D1)
+    GPIO 12 (D6)
+    GPIO 13 (D7)
+    GPIO 14 (D5)
+
+These pins are typically free of special functions that would interfere with normal operation and are safe for general-purpose use.
+Summary
+
+    Pins to Avoid for General-Purpose I/O: GPIO 6 to GPIO 11.
+    Pins to Use with Caution: GPIO 0, GPIO 2, GPIO 15, GPIO 1 (TX), GPIO 3 (RX), GPIO 16.
+    Recommended Pins for General-Purpose I/O: GPIO 4, GPIO 5, GPIO 12, GPIO 13, GPIO 14.
+
+By following these guidelines, you can effectively use the GPIO pins on your ESP12-E module without running into issues related to boot modes or interfering with essential module functions.

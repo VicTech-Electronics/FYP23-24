@@ -14,12 +14,12 @@ Stepper stepper(steps_per_revolution, 8, 7, 6, 5);
 // Definition of usefull variables and constants
 uint8_t mode_index = 0;
 String current_mode = "Operation";
-String modes[] = ["Operation", "Setting"];
+String modes[] = {"Operation", "Setting"};
 
 // Method to handle change mode interrupt
 void changeMode(){
   mode_index += 1;
-  if(mode_index >= modes.length()) mode_index = 0;
+  if(mode_index >= 2) mode_index = 0;
   current_mode = modes[mode_index];
 
   lcdPrint("Change Mode", "Mode: " + current_mode);

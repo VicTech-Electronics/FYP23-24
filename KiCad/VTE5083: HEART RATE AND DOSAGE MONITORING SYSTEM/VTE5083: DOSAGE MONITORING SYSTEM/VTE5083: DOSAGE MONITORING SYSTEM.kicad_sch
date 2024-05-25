@@ -2671,7 +2671,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 88.9) (xy 228.6 88.9)
+			(xy 212.09 88.9) (xy 226.06 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2921,7 +2921,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 88.9) (xy 236.22 88.9)
+			(xy 231.14 88.9) (xy 236.22 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4592,7 +4592,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 231.14 88.9 90)
+		(at 228.6 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4600,7 +4600,7 @@
 		(dnp no)
 		(uuid "c35bf8ac-0058-439b-a8fa-9e3dc2ef3773")
 		(property "Reference" "R5"
-			(at 230.378 91.44 90)
+			(at 227.838 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +4609,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 234.696 91.44 90)
+			(at 232.156 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4618,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 231.14 88.9 0)
+			(at 228.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 88.9 0)
+			(at 228.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4636,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 231.14 88.9 0)
+			(at 228.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
