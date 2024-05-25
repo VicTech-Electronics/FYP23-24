@@ -1,7 +1,7 @@
 #include "Display.h"
 
 // Definition of usefull pins
-uint8_t btn_pin=2, green_led_pin=6, red_led_pin=7, buzzer_pin=8, sensor_pin=A5; 
+uint8_t btn_pin=2, green_led_pin=6, red_led_pin=7, buzzer_pin=8, backlight_pin=12, sensor_pin=A5; 
 
 // Definition of usefull variables
 int alcohol_level = 0;
@@ -32,10 +32,16 @@ void setup() {
   pinMode(red_led_pin, OUTPUT);
   pinMode(green_led_pin, OUTPUT);
   pinMode(btn_pin, INPUT_PULLUP);
+  pinMode(backlight_pin, OUTPUT);
+
 
   lcd.begin(16, 2);
+  digitalWrite(backlight_pin, HIGH);
   welcomeMessage();
+  digitalWrite(backlight_pin, LOW);
+  delay(1000);
   attachInterrupt(digitalPinToInterrupt(btn_pin), pause, FALLING);
+  digitalWrite(backlight_pin, HIGH);
 }
 
 void loop() {

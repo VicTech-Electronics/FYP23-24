@@ -48,19 +48,20 @@ void settingMode() {
     setting(current_setting);
     if (digitalRead(next_btn_pin) == LOW) {
       if (current_setting == "hours") current_setting = "minutes";
-      else if (current_setting == "minutes") {
-        current_setting = "";
-        break;
-      }
+      if (current_setting == "minutes") break;
     }
   }
+  current_setting = "";
+  count_down_sec = hours * 3600 + minutes * 60;
 }
 
 void inOperation() {
   if (count_down_sec > 1) {
     lcdPrint("Time " + String(hours) + ":" + String(minutes), "Processing...");
-    count_down_sec = hours * 3600 + minutes * 60;
-    while (count_down_sec > 1) {
+    bool clockwise = true;
+    while (count_down_sec >= 1) {
+      if(!digitalRead(change_btn_pin)) clockwise = !clockwise;
+      motorControl(clockwise);
       count_down_sec -= 1;
       delay(1000);
     }

@@ -15,7 +15,7 @@ void setup() {
 }
 
 void loop() {
-  while(mode === "registration"){
+  while(mode == "registration"){
     fingerprint = getFingerprintID();
     if(fingerprint.startsWith("printID")){
       uint8_t space_index = fingerprint.indexOf(' ');
