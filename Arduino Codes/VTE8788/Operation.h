@@ -1,6 +1,7 @@
-uint8_t buzzer_pin = 1, mode_btn_pin = 2;
-String mode = "operation";
+#include "Communication.h"
 
+uint8_t buzzer_pin = 5, mode_btn_pin = 4;
+String mode = "operation";
 
 void changeMode(){
   digitalWrite(buzzer_pin, HIGH);

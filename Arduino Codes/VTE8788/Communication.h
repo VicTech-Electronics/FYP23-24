@@ -1,14 +1,16 @@
 #include "FingerPrint.h"
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
+#include <Arduino_JSON.h>
 
-const char* ssid = "YourNetworkSSID";                        // Replace with your network SSID
-const char* password = "YourNetworkPassword";                // Replace with your network password
-const char* serverUrl = "http://64.23.247.79";  
+JSONVar json_object;
 
-SoftwareSerial nextion_serial(1, 2);
-String nextion_message = "";
+const char* ssid = "Civilian Teachers SKUA";
+const char* password = "civilian1234";
+const char* serverUrl = "http://64.23.247.79:8000/api/fingerprint/update";
+
 String http_response = "";
+String nextion_message;
 int httpResponseCode;
 
 void initializeWIFI() {
@@ -28,28 +30,39 @@ String postRequest(String payload) {
 
   http.addHeader("Content-Type", "application/json");
   httpResponseCode = http.POST(payload);
-  Serial.println("HTTP Response Code: " + String(httpResponseCode));
+  http_response = http.getString();
   http.end();
 
-  if (httpResponseCode == 200) return "success";
+  Serial.println("HTTP Response code: " + String(httpResponseCode));
+  Serial.println("HTTP Response string: " + String(http_response));
+
+  json_object = JSON.parse(http_response);
+
+  if ((bool)json_object["success"]) return "success";
   else return "fail";
 }
 
 
 void sendDataToNextion(String data) {
-  nextion_serial.print(data);
-  nextion_serial.write(0xfff);
-  nextion_serial.write(0xfff);
-  nextion_serial.write(0xfff);
+  nextion_serial.listen();
+  if (nextion_serial.isListening()) {
+    nextion_serial.print(data);
+    nextion_serial.write(0xfff);
+    nextion_serial.write(0xfff);
+    nextion_serial.write(0xfff);
+  }
 }
 
 String receiveDataFromNextion() {
-  if (nextion_serial.available()) {
-    nextion_message = "";
-    delay(50);
-    while (nextion_serial.available()) {
-      nextion_message += char(nextion_serial.read());
+  nextion_serial.listen();
+  nextion_message = "";
+  if (nextion_serial.isListening()) {
+    if (nextion_serial.available()) {
+      delay(50);
+      while (nextion_serial.available()) {
+        nextion_message += char(nextion_serial.read());
+      }
     }
-  } else return "No message";
+  }
   return nextion_message;
 }

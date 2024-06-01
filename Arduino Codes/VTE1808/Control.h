@@ -49,7 +49,7 @@ void controlStepper(uint8_t section) {
 // Method to Check the current time
 String getTime_RTC() {
   rtc.refresh();
-  return String(rtc.hour()) + String(rtc.minute());
+  return String(rtc.hour()) + ":" + String(rtc.minute());
 }
 
 // Method for alerting

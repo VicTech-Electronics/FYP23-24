@@ -1,7 +1,8 @@
 #include <Adafruit_Fingerprint.h>
 #include <SoftwareSerial.h>
 
-SoftwareSerial fingerprint_serial(2, 3);  // Arduino RX pin 2, TX pin 3
+SoftwareSerial nextion_serial(14, 16);
+SoftwareSerial fingerprint_serial(13, 12); 
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&fingerprint_serial);
 
 
@@ -34,9 +35,9 @@ String getFingerprintID() {
 
     fingerprint_data = finger.fingerFastSearch();
     if (fingerprint_data == FINGERPRINT_OK)
-      return "printID" + String(finger.fingerID);
+      return "printID:" + String(finger.fingerID);
     else return "Fail to get printID";
   }
 
-  return "Fail to listen to the FingerPrint Serial";
+  return "Fail to listen";
 }

@@ -2,9 +2,9 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
-const char* ssid = "Civilian Teachers SKUA";                        // Replace with your network SSID
-const char* password = "civilian1234";                // Replace with your network password
-const char* serverUrl = "http://64.23.247.79:8000";  
+const char* ssid = "Civilian Teachers SKUA";  // Replace with your network SSID
+const char* password = "civilian1234";        // Replace with your network password
+const char* serverUrl = "http://64.23.247.79:8000";
 
 String http_response = "";
 int httpResponseCode;
@@ -26,8 +26,11 @@ String postRequest(String payload) {
 
   http.addHeader("Content-Type", "application/json");
   httpResponseCode = http.POST(payload);
-  Serial.println("HTTP Response Code: " + String(httpResponseCode));
+  http_response = http.getString();
   http.end();
+
+  Serial.println("HTTP Response code: " + String(httpResponseCode));
+  Serial.println("HTTP Response string: " + String(http_response));
 
   if (httpResponseCode == 200) return "success";
   else return "fail";

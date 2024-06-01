@@ -1,8 +1,5 @@
 #include "Operation.h"
-#include "Communication.h"
-#include <Arduino_JSON.h>
 
-JSONVar json_object;
 String fingerprint, payload, response;
 
 void setup() {
@@ -17,19 +14,30 @@ void setup() {
 void loop() {
   while(mode == "registration"){
     fingerprint = getFingerprintID();
+
+    Serial.println("Obtain from FP: " + String(fingerprint));
+
     if(fingerprint.startsWith("printID")){
-      uint8_t space_index = fingerprint.indexOf(' ');
-      if(space_index != -1){
-        fingerprint =  fingerprint.substring(space_index + 1);
-        json_object["fingerprint_id"] = fingerprint;
+      uint8_t colon_index = fingerprint.indexOf(':');
+      if(colon_index != -1){
+        fingerprint =  fingerprint.substring(colon_index + 1);
+
+        Serial.println("Fingerprint: " + String(fingerprint));
+
+        json_object["fingerprint_id"] = fingerprint.toInt();
         payload = JSON.stringify(json_object);
         response = postRequest(payload);
-        sendDataToNextion(response);
+
+        Serial.println("Response to screen: " + response);
+        // sendDataToNextion(response);
       }
     }
   }
 
-  payload = receiveDataFromNextion();
-  response = postRequest(payload);
-  sendDataToNextion(response);
+  // payload = receiveDataFromNextion();
+  // response = postRequest(payload);
+
+  // json_object = JSON.parse(response);
+  // if((bool) json_object["success"])  sendDataToNextion("success");
+  // else sendDataToNextion("fail");
 }
