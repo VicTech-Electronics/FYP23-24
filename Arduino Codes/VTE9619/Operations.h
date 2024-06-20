@@ -17,6 +17,7 @@ void provideService1() {
   required_service_number = 1;
   service_selected = true;
 }
+
 void provideService2() {
   required_service_number = 2;
   service_selected = true;

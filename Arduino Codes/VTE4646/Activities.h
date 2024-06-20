@@ -1,4 +1,5 @@
 #include "Arduino.h"
+
 // Definitions of pins connection
 uint8_t battery_volt_pins[] = { A0, A2 };
 uint8_t charge_switch_pins[] = { 8, 9 };
@@ -13,10 +14,8 @@ uint8_t batteries_connection_pin = 11;
 float min_load_current = 0.1,
       min_battery_volt = 12,
       max_battery_volt = 14;
-uint8_t counter,
-  manual_selected = 1;  // 1 = Battery 1, 2 = Battery 2, 3 = All batteries
+uint8_t counter, manual_selected = 1;  // 1 = Battery 1, 2 = Battery 2, 3 = All batteries
 String mode;
-
 
 void auto_manual_change() {
   digitalWrite(buzzer_pin, HIGH);
@@ -56,7 +55,7 @@ void initialize() {
 
 // Method to measure battery voltage
 float getBatteryVolt(uint8_t battery_index) {
-  return 3. * map(analogRead(battery_volt_pins[battery_index]), 0., 1023., 0., 5.);
+  return map(analogRead(battery_volt_pins[battery_index]), 0., 1023., 0., 12.);
 }
 
 // Method to measure output voltage
